@@ -1,0 +1,41 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Client	client.h	/^class Client{$/;"	c
+choose_cmd	client.cpp	/^void Client::choose_cmd(Window* pwindow)$/;"	f	class:Client
+client_flist	client_main.cpp	/^pthread_t header,client_flist,server_flist,input_output;$/;"	v
+cond1	client_main.cpp	/^pthread_cond_t cond1;$/;"	v
+cond2	client_main.cpp	/^pthread_cond_t cond2;$/;"	v
+deletefile	client.cpp	/^int Client::deletefile(const char*filename)$/;"	f	class:Client
+download	client.cpp	/^int Client::download(const char*filename)$/;"	f	class:Client
+get_icloud_flist	client_main.cpp	/^void get_icloud_flist(std::string &msg)$/;"	f
+header	client_main.cpp	/^pthread_t header,client_flist,server_flist,input_output;$/;"	v
+icloud_flist	client_main.cpp	/^std::vector<std::string> icloud_flist;$/;"	v
+init	client.cpp	/^int Client::init(const std::string& server_ip,short server_port)$/;"	f	class:Client
+input_output	client_main.cpp	/^pthread_t header,client_flist,server_flist,input_output;$/;"	v
+local_flist	client_main.cpp	/^std::vector<std::string> local_flist;$/;"	v
+login	client.cpp	/^void Client::login(Window* pwindow)$/;"	f	class:Client
+main	client_main.cpp	/^int main(int argc,char*argv[])$/;"	f
+md5	client.h	/^    MD5 md5;$/;"	m	class:Client
+mutex1	client_main.cpp	/^pthread_mutex_t mutex1;$/;"	v
+mutex2	client_main.cpp	/^pthread_mutex_t mutex2;$/;"	v
+pclient	client_main.cpp	/^Client *pclient;$/;"	v
+regist	client.cpp	/^void Client::regist(Window* pwindow)$/;"	f	class:Client
+run_client_flist	client_main.cpp	/^void* run_client_flist(void* arg)$/;"	f
+run_header	client_main.cpp	/^void* run_header(void* arg)$/;"	f
+run_input_output	client_main.cpp	/^void* run_input_output(void* arg)$/;"	f
+run_server_flist	client_main.cpp	/^void* run_server_flist(void* arg)$/;"	f
+scanFiles	client_main.cpp	/^int scanFiles(std::vector<std::string> &fileList, std::string inputDirectory)$/;"	f
+sendQuit	client_main.cpp	/^void sendQuit(int sig)$/;"	f
+server_addr_	client.h	/^    sockaddr_in server_addr_;$/;"	m	class:Client
+server_flist	client_main.cpp	/^pthread_t header,client_flist,server_flist,input_output;$/;"	v
+show_choose	client.cpp	/^void show_choose(Window* pwindow)$/;"	f
+sock_	client.h	/^    int sock_;$/;"	m	class:Client
+sockaddr	client.h	/^typedef struct sockaddr sockaddr;$/;"	t	typeref:struct:sockaddr
+sockaddr_in	client.h	/^typedef struct sockaddr_in sockaddr_in;$/;"	t	typeref:struct:sockaddr_in
+upload	client.cpp	/^int Client::upload(const char* path,const char* filename)$/;"	f	class:Client
+usage	client_main.cpp	/^void usage(const char* proc)$/;"	f
+user_data_	client.h	/^    UserData user_data_;$/;"	m	class:Client
