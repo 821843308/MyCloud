@@ -25,7 +25,7 @@ void* run_header(void* arg)
 {
     Window window ;
     window.init();
-    std::string strheader = "Welcome to icloud system";
+    std::string strheader = "Welcome to MyCloud system";
     window.draw_header();
     window.put_str_to_header(strheader);
 }
